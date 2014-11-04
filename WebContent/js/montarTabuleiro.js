@@ -16,6 +16,9 @@ function drop(ev) {
 	ev.target.appendChild(document.getElementById(data));
 }
 
+/**
+ * Inicia o jogo
+ */
 function start() {
 	$(".casa").hover(
 			function() {
@@ -57,6 +60,9 @@ function start() {
 						}
 					});
 };
+/**
+ * Monta o tabuleiro
+ */
 function MontarTabuleiro() {
 	var i;
 	num_linhas = 10;
